@@ -1,0 +1,296 @@
+/* ШРИФТЫ */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+/*ОБНУЛЯЮЩИЙ СТИЛь*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a :visited {
+	text-decoration: none;
+}
+a :hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/*ДОМАШНЯЯ РАБОТА №4*/
+body {
+	font-family: "Montserrat", sans-serif;
+	max-width: 1820px;
+	margin: 0 auto;
+	background-color: #E5E5E5;
+}
+
+/* =========================HEADER========================= */
+.header__menu {
+	margin-top: 20px;
+}
+.menu {
+	margin-bottom: 258px;
+}
+.menu__logo {
+	display: inline-block;
+}
+.logo-menu img {
+	margin-right: 234px;
+}
+.menu__list {
+	max-width: 522px;
+	display: inline-block;
+	margin-right: 866px;
+	font-size: 18px;
+	line-height: 150%;
+	color: #2b3541;
+}
+.menu__list a {
+	font-size: 18px;
+	line-height: 150%;
+	color: #2b3541;
+	margin-right: 50px;
+}
+.menu__link {
+}
+.menu__social a {
+	display: inline-block;
+	margin-right: 14px;
+}
+.menu__social img {
+	width: 30px;
+	opacity: 0.8;
+}
+
+/* ===========================MAIN========================= */
+
+.main__section {
+	margin-bottom: 138px;
+}
+
+.main__body {
+	margin: 0 auto;
+}
+h1 {
+	width: 676px;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 125%;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #2b3541;
+	padding-left: 336px;
+	margin-bottom: 42px;
+	display: inline-block;
+
+}
+.main__text p{
+	font-size: 40px;
+	line-height: 125%;
+	color: #2b3541;
+}
+.main-p {
+	padding-left: 340px;
+	margin-bottom: 24px;
+}
+#main_id{
+	display: inline-block;
+	font-size: 18px;
+	margin-bottom: 34px;
+	line-height: 150%;
+	color: #2B3541;
+	padding-left: 426px;
+}
+.button {
+	text-align: center;
+	width: 252px;
+	margin: 0px 0px 182px 428px;
+	padding: 20px 0px;
+	background: #FBF138;
+}
+.btn {
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #2B3541;
+}
+.arrow {
+	margin-left: 426px;
+}
+
+.main__image {
+	margin: -794px 172px 0px 0px;
+	text-align: right;
+}
+/* ----------------------------------------------------------------------- */
+.events {
+	max-width: 1143px;
+	margin: 0 auto;
+	margin-bottom: 160px;
+}
+.days {
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 70px;
+	line-height: 125%;
+	color: #2B3541;
+	text-align: left;
+}
+.events__spans {
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 20px;
+	line-height: 150%;
+	color: #2B3541;
+	opacity: 0.6;
+}
+#June{
+	display: inline-block;
+	padding-left: 26px;
+	margin-right: 277px;
+}
+#July{
+	display: inline-block;
+	margin-right: 342px;
+}
+#July_2{
+	display: inline-block;
+}
+.events__spans2 {
+	position: relative;
+	z-index: 2;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 125%;
+	color: #2B3541;
+}
+#marathon{
+	display: inline-block;
+	width: 260px;
+	padding-left: 26px;
+	margin-right: 121px;
+
+}
+#trainer{
+	display: inline-block;
+	width: 259px;
+	margin-right: 121px;
+}
+#yoga{
+	display: inline-block;
+	width: 260px;
+}
+
+.events__images {
+	margin-top: -148px;
+}
+.img1 {
+	margin-right: 14px;
+}
+.img2 {
+		margin-right: 14px;
+}
+.img3 {
+	
+}
+
+/* --------------------------------------------------------- */
+.timetable {
+	max-width: 1143px;
+	margin: 0 auto;
+	margin-bottom: 150px;
+}
+.timetable__workouts {
+	display: inline-block;
+	margin-right: 594px;
+	margin-bottom: 30px;
+	width: 356px;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 125%;
+	color: #2B3541;
+}
+.timetable__workouts + span {
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 125%;
+	color: #2B3541;
+}
+.timetable img {
+	width: 1156px;
+	text-align: center;
+}
+/* --------------------------------------------------------- */
+
+.company {
+	max-width: 1142px;
+	margin: 0 auto;
+}
+#organization {
+	width: 488px;
+	margin-top: -48px;
+	margin-bottom: 34px;
+	font-size: 18px;
+	line-height: 150%;
+	color: #2B3541;
+}
+.company__button {
+	display: inline-block;
+	margin-left: -12px;
+}
+.company img {
+	display: inline-block;
+	text-align: right;
+	margin-left: 314px;
+	margin-top: -214px;
+}
+
+/* =========================FOOTER========================= */
+.footer {
+	max-width: 1142px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.footer__logo img {
+	width: 97px;
+	margin-right: 50px;
+	margin-right: 70px;
+}
+.footer__list a {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 150%;
+	color: #2B3541;
+	margin-right: 84px;
+}
+.footer__list {
+	margin-right: 136px;
+}
+.footer address {
+	display: inline-block;
+	font-weight: 700;
+	line-height: 150%;
+	color: #2B3541;
+}
+.footer__social a {
+	display: inline-block;
+	width: 27px;
+	margin-left: 40px;
+}
