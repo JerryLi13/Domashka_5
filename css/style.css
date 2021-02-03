@@ -92,8 +92,6 @@ body {
 	color: #2b3541;
 	margin-right: 50px;
 }
-.menu__link {
-}
 .menu__social a {
 	display: inline-block;
 	margin-right: 14px;
@@ -233,8 +231,6 @@ h1 {
 }
 .img2 {
 	margin-right: 14px;
-}
-.img3 {
 }
 
 /* --------------------------------------------------------- */
